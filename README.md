@@ -4,13 +4,9 @@ Minecraft Mod. Automatically (insta-)mines falling gravel blocks that get in you
 
 - [Modpack Permissions](https://mods.twelveiterations.com/permissions)
 
-#### Forge
+#### Downloads
 
 [![Versions](http://cf.way2muchnoise.eu/versions/244759_latest.svg)](https://www.curseforge.com/minecraft/mc-mods/gravelminer) [![Downloads](http://cf.way2muchnoise.eu/full_244759_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/gravelminer)
-
-#### Fabric
-
-[![Versions](http://cf.way2muchnoise.eu/versions/506456_latest.svg)](https://www.curseforge.com/minecraft/mc-mods/gravelminer-fabric) [![Downloads](http://cf.way2muchnoise.eu/full_506456_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/gravelminer-fabric)
 
 ## Contributing
 
