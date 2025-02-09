@@ -234,7 +234,7 @@ task curseforge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge) {
 
     apiToken = project.findProperty("curseforge.api_key") ?: System.getenv("CURSEFORGE_TOKEN") ?: "none"
 
-    def mainFile = upload(curseforge_forge_project_id, file("${project.buildDir}/libs/${archivesBaseName}-${version}.jar"))
+    def mainFile = upload(curseforge_project_id, file("${project.buildDir}/libs/${archivesBaseName}-${version}.jar"))
     mainFile.changelog = rootProject.file('CHANGELOG.md').text
     mainFile.addRequirement("balm")
     project.minecraft_versions.split(',').toList().each { mainFile.addGameVersion(it) }
@@ -243,7 +243,7 @@ task curseforge(type: net.darkhax.curseforgegradle.TaskPublishCurseForge) {
 
 modrinth {
     token = project.findProperty("modrinth.token") ?: System.getenv("MODRINTH_TOKEN") ?: "none"
-    projectId = project.modrinth_forge_project_id
+    projectId = project.modrinth_project_id
     versionType = project.modrinth_release_type
     versionNumber = project.version + "+forge-" + project.minecraft_version
     uploadFile = jar
