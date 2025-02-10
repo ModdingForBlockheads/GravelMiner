@@ -1,2 +1,1 @@
-- Updated to Minecraft 1.20
-- Fixed config load failure on Fabric
+- Fixed mod falsely being required on client on later Balm versions
